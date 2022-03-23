@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-	priority_queue<int> pq;
+	priority_queue<int> pq;		//우선순위 큐(큰 수가 우선)
 	int n;
 	cin >> n;
 	for (int i = 0; i < n; i++) {
