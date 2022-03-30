@@ -7,7 +7,7 @@ int main() {
 	int E, S, M, year = 1;
 	cin >> E >> S >> M;
 	while (1) {
-		if ((year - E) % 15 == 0 && (year - S) % 28 == 0 && (year - M) % 19 == 0)	break;	//	year - E : 15ÀÇ ¹è¼ö, year - S : 28ÀÇ ¹è¼ö , year - M : 19ÀÇ ¹è¼ö 
+		if ((year - E) % 15 == 0 && (year - S) % 28 == 0 && (year - M) % 19 == 0)	break;	//	year - E : 15ì˜ ë°°ìˆ˜, year - S : 28ì˜ ë°°ìˆ˜ , year - M : 19ì˜ ë°°ìˆ˜
 		year++;
 	}
 	cout << year;
