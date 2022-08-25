@@ -3,7 +3,7 @@
 #pragma warning(disable:4996)
 using namespace std;
 struct Stack {
-	int stack[1000];
+	int stack[10000];
 	int size = 0;
 	void push(int data) {
 		stack[size] = data;
